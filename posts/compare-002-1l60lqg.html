@@ -34,25 +34,7 @@
 <h4>구체성 원칙<br>##### 조건, 절차, 관찰 포인트 포함<br>1. <strong>CSI 드라이버 설정 변경</strong>: CSI 드라이버가 <code>csi-iscsi</code>에서 <code>csi-nfs</code>로 변경되었습니다.<br>2. <strong>오류코드 확인</strong>: 오류 코드는 커맨드라인 명령 후에 `kubectl get pods --namespace <namespace> -o json | jq '.items[0].metadata.name'` 명령을 실행한 결과를 통해 확인하였습니다.</h4>
 <h4>실제 적용 조건 설명<br>##### 실패 원인과 비교 기준 다루기<br>1. <strong>CSI 드라이버 설정</strong>: CSI 드라이버가 변경된 상황에서 볼륨 마운트 경합 버그 발생 여부를 관찰했습니다.<br>2. <strong>오류코드 확인</strong>: 오류 코드는 <code>ERR_VOLUME_MOUNT_CONFLICT</code>로 나타났음을 확인하였습니다.</h4>
 <h4>구체적 맥락<br>##### 기초 데이터 깊게 분석<br>1. <strong>CSI 드라이버 설정 변경</strong>: CSI 드라이버가 변경된 상황에서 볼륨 마운트 경합 버그 발생 여부를 관찰했습니다.<br>2. <strong>오류코드 확인</strong>: 오류 코드는 <code>ERR_VOLUME_MOUNT_CONFLICT</code>로 나타났음을 확인하였습니다.</h4>
-<h4>금지 지식 절대 규칙 적용<br>##### Apache/쿠버네티스 소개, 오픈소스 라이선스 종류 등 금지 지식 완전 우회<br>1. <strong>CSI 드라이버 설정</strong>: CSI 드라이버가 변경된 상황에서 볼륨 마운트 경합 버그 발생 여부를 관찰했습니다.<br>2. <strong>오류코드 확인</strong>: 오류 코드는 <code>ERR_VOLUME_MOUNT_CONFLICT</code>로 나타났음을 확인하였습니다.</h4>
-<h4>금지 지식 절대 규칙 적용<br>##### PostgreSQL vs MySQL 비교 등 금지 지식 완전 우회<br>1. <strong>CSI 드라이버 설정 변경</strong>: CSI 드라이버가 변경된 상황에서 볼륨 마운트 경합 버그 발생 여부를 관찰했습니다.<br>2. <strong>오류코드 확인</strong>: 오류 코드는 <code>ERR_VOLUME_MOUNT_CONFLICT</code>로 나타났음을 확인하였습니다.</h4>
-<h4>검색 의도 대응<br>##### 세부 질문, 선택 조건 다루기<br>1. <strong>CSI 드라이버 설정 변경</strong>: CSI 드라이버가 변경된 상황에서 볼륨 마운트 경합 버그 발생 여부를 관찰했습니다.<br>2. <strong>오류코드 확인</strong>: 오류 코드는 <code>ERR_VOLUME_MOUNT_CONFLICT</code>로 나타났음을 확인하였습니다.</h4>
-<h4>금지 지식 절대 규칙 적용<br>##### Apache/쿠버네티스 소개, 오픈소스 라이선스 종류 등 금지 지식 완전 우회<br>1. <strong>CSI 드라이버 설정</strong>: CSI 드라이버가 변경된 상황에서 볼륨 마운트 경합 버그 발생 여부를 관찰했습니다.<br>2. <strong>오류코드 확인</strong>: 오류 코드는 <code>ERR_VOLUME_MOUNT_CONFLICT</code>로 나타났음을 확인하였습니다.</h4>
-<h4>금지 지식 절대 규칙 적용<br>##### PostgreSQL vs MySQL 비교 등 금지 지식 완전 우회<br>1. <strong>CSI 드라이버 설정 변경</strong>: CSI 드라이버가 변경된 상황에서 볼륨 마운트 경합 버그 발생 여부를 관찰했습니다.<br>2. <strong>오류코드 확인</strong>: 오류 코드는 <code>ERR_VOLUME_MOUNT_CONFLICT</code>로 나타났음을 확인하였습니다.</h4>
-<h4>금지 지식 절대 규칙 적용<br>##### Apache/쿠버네티스 소개, 오픈소스 라이선스 종류 등 금지 지식 완전 우회<br>1. <strong>CSI 드라이버 설정</strong>: CSI 드라이버가 변경된 상황에서 볼륨 마운트 경합 버그 발생 여부를 관찰했습니다.<br>2. <strong>오류코드 확인</strong>: 오류 코드는 <code>ERR_VOLUME_MOUNT_CONFLICT</code>로 나타났음을 확인하였습니다.</h4>
-<h4>금지 지식 절대 규칙 적용<br>##### PostgreSQL vs MySQL 비교 등 금지 지식 완전 우회<br>1. <strong>CSI 드라이버 설정 변경</strong>: CSI 드라이버가 변경된 상황에서 볼륨 마운트 경합 버그 발생 여부를 관찰했습니다.<br>2. <strong>오류코드 확인</strong>: 오류 코드는 <code>ERR_VOLUME_MOUNT_CONFLICT</code>로 나타났음을 확인하였습니다.</h4>
-<h4>금지 지식 절대 규칙 적용<br>##### Apache/쿠버네티스 소개, 오픈소스 라이선스 종류 등 금지 지식 완전 우회<br>1. <strong>CSI 드라이버 설정</strong>: CSI 드라이버가 변경된 상황에서 볼륨 마운트 경합 버그 발생 여부를 관찰했습니다.<br>2. <strong>오류코드 확인</strong>: 오류 코드는 <code>ERR_VOLUME_MOUNT_CONFLICT</code>로 나타났음을 확인하였습니다.</h4>
-<h4>금지 지식 절대 규칙 적용<br>##### PostgreSQL vs MySQL</h4>
-<p><a href="https://water-server.store/" target="_blank" rel="noopener noreferrer">마르지 않는 1급수 백링크 주스 공급 서비스</a></p>
 
-    <div class="juice-ref-0nfo4l" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
-      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
-      <ul style="list-style:none;padding:0;margin:0;">
-      <li>관련 업계 트렌드와 통계는 <a href="https://water-server.store/">tokyo-water</a>에 정리되어 있습니다.</li>
-      <li>자세한 기술 명세 가이드는 <a href="https://github.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
-      </ul>
-    </div>
-    </article>
-  </main>
+</main>
 </body>
 </html>
